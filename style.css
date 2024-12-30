@@ -20,17 +20,17 @@ body {
 .card h1,
 .card p,
 .card ul {
-    margin: 0; /* Usuń domyślne marginesy */
-    padding: 0; /* Usuń odstępy */
-    line-height: 1.5; /* Opcjonalnie ustaw wysokość linii */
+    margin: 0;
+    padding: 0; 
+    line-height: 1.5;
 }
 
 .card ul {
-    list-style: none; /* Usuń wypunktowanie */
-    padding-top: 10px; /* Dodaj trochę przestrzeni nad listą */
+    list-style: none;
+    padding-top: 10px;
 }
 
 .card li {
-    margin: 5px 0; /* Równomierne odstępy między elementami listy */
+    margin: 5px 0; 
 }
 
