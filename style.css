@@ -16,3 +16,12 @@ body {
     text-align: center;
     width: 300px;
 }
+
+
+.card h1,
+.card p,
+.card ul {
+    margin: 0;
+    padding: 0;
+    line-height: 1,5;
+{
