@@ -1,0 +1,68 @@
+/* Podstawowe ustawienia */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Kontener strony */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Karta wizytówki */
+.card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+/* Nagłówek */
+.card h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Podtytuł */
+.card .subtitle {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Stylowanie listy */
+.card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card ul li {
+    margin: 5px 0;
+}
+
+/* Stylowanie sekcji informacji */
+.card .info {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.card .info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.card .info strong {
+    color: #333;
+}
