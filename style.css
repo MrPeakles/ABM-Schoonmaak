@@ -15,22 +15,15 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 300px;
+    border: 1px solid #ddd;
 }
 
-.card h1,
-.card p,
-.card ul {
-    margin: 0;
-    padding: 0; 
-    line-height: 1.5;
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
-.card ul {
-    list-style: none;
-    padding-top: 10px;
+p {
+    font-size: 16px;
+    margin: 5px 0;
 }
-
-.card li {
-    margin: 5px 0; 
-}
-
